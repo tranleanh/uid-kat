@@ -1,5 +1,13 @@
 # CycleKAND
 
+## Dependencies
+It is recommended to run the project with the following main dependencies (or equivalent) for effective development:
+- python 3.8
+- pytorch 2.1
+- cuda 12.1
+- cudnn 8.9.2
+- rational_kat_cu
+
 
 ## Acknowledgments
 
