@@ -1,4 +1,4 @@
-# CycleKAND
+# UID-KAT
 
 ## Dependencies
 It is recommended to run the project with the following main dependencies (or equivalent) for effective development:
