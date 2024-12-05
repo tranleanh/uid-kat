@@ -6,7 +6,12 @@ It is recommended to run the project with the following main dependencies (or eq
 - pytorch 2.1
 - cuda 12.1
 - cudnn 8.9.2
-- rational_kat_cu
+- timm
+- [rational_kat_cu](https://github.com/Adamdad/rational_kat_cu)
+- torchinfo
+- dominate
+- visdom
+- opencv
 
 
 ## Acknowledgments
