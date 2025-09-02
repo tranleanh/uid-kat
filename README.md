@@ -6,6 +6,30 @@ This is the implementation of the paper [Unpaired Image Dehazing via Kolmogorov-
 
 Author: Le-Anh Tran
 
+## Framework
+<p align="center">
+<img src="docs/uid-kat.png" width="1000">
+</p>
+
+## Quantitative Results
+<p align="center">
+<img src="docs/quantitative.png" width="1000">
+</p>
+
+## Qualitative Results
+
+<p align="center">
+<img src="docs/qualitative_1.png" width="1000">
+</p>
+
+<p align="center">
+<img src="docs/qualitative_2.png" width="1000">
+</p>
+
+<p align="center">
+<img src="docs/qualitative_3.png" width="1000">
+</p>
+
 ## Dependencies
 It is recommended to run the project with the following main dependencies (or equivalent) for effective development:
 - pytorch 2.1
