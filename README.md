@@ -37,14 +37,15 @@ It is recommended to run the project with the following main dependencies (or eq
 - cudnn 8.9.2
 - [rational_kat_cu](https://github.com/Adamdad/rational_kat_cu)
 
-## Setup
-(will be updated)
+## Train
+```bashrc
+$ python train.py
+```
 
 ## Test
-(will be updated)
-
-## Train
-(will be updated)
+```bashrc
+$ python test.py
+```
 
 ## Citation
 ```bibtex
