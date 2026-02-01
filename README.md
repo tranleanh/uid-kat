@@ -2,7 +2,7 @@
 
 [![Preprint](https://img.shields.io/badge/Preprint-arXiv-red)](https://arxiv.org/abs/2502.07812)
 
-This is the implementation of the paper [Unpaired Image Dehazing via Kolmogorov-Arnold Transformation of Latent Features](https://arxiv.org/abs/2502.07812).
+The official PyTorch implementation of the paper [Unpaired Image Dehazing via Kolmogorov-Arnold Transformation of Latent Features](https://arxiv.org/abs/2502.07812).
 
 Author: Le-Anh Tran
 
