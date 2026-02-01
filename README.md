@@ -42,11 +42,11 @@ It is recommended to run the project with the following main dependencies (or eq
 Specify model configurations:
 
 
-| Model type | --ngf | --n_kat_blocks |
-| :---: | :---: | :---: |
-| Tiny | 16 | 9 |
-| Small | 32 | 9 |
-| Base | 64 | 5 |
+| Model type | --ngf | --n_kat_blocks | #Param(M) | MACs(G) |
+| :---: | :---: | :---: | :---: | :---: |
+| Tiny | 16 | 9 | 1.94 | 2.88 |
+| Small | 32 | 9 | 7.70 | 10.59 |
+| Base | 64 | 5 | 18.08 | 38.28 |
 
 For example:
 ```
