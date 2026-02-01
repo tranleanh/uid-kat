@@ -38,13 +38,37 @@ It is recommended to run the project with the following main dependencies (or eq
 - [rational_kat_cu](https://github.com/Adamdad/rational_kat_cu)
 
 ## Train
+
+Specify model configurations:
+
+
+| Model type | --ngf | --n_kat_blocks |
+| :---: | :---: | :---: |
+| Tiny | 16 | 9 |
+| Small | 32 | 9 |
+| Base | 64 | 5 |
+
+For example:
+```
+--batch_size 1
+--n_epochs 50
+--n_epochs_decay 50
+--ngf 32
+--n_kat_blocks 9
+```
+
+Run training script:
+
 ```bashrc
-$ python train.py
+$ python train.py --dataroot ./datasets/train1 --name uidkat --batch_size 1 --n_epochs 50 --n_epochs_decay 50 --ngf 32 --n_kat_blocks 9
 ```
 
 ## Test
+
+Specify image paths and model configurations, then run:
+
 ```bashrc
-$ python test.py
+$ python dehaze_image.py
 ```
 
 ## Citation
