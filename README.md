@@ -65,6 +65,8 @@ $ python train.py --dataroot ./datasets/train1 --name uidkat --batch_size 1 --n_
 
 ## Test
 
+Download model checkpoints from [HuggingFace](https://huggingface.co/tranleanh/uid-kat) and locate them in "checkpoints/".
+
 Specify image paths and model configurations, then run:
 
 ```bashrc
