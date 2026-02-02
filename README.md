@@ -42,7 +42,7 @@ It is recommended to run the project with the following main dependencies (or eq
 
 Prepare training dataset following the folder structure in [datasets/train1](https://github.com/tranleanh/uid-kat/tree/main/datasets/train1).
 
-Specify model configurations:
+Specify model type and training configurations:
 
 | Model type | --ngf | --n_kat_blocks | #Param(M) | MACs(G) |
 | :---: | :---: | :---: | :---: | :---: |
