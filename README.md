@@ -1,6 +1,7 @@
 # UID-KAT: Unpaired Image Dehazing via Kolmogorov-Arnold Transformation of Latent Features
 
 [![Preprint](https://img.shields.io/badge/Preprint-arXiv-red)](https://arxiv.org/abs/2502.07812)
+[![Models](https://img.shields.io/badge/Models-Hugging_Face-gold)](https://huggingface.co/tranleanh/uid-kat)
 
 The official PyTorch implementation of the paper [Unpaired Image Dehazing via Kolmogorov-Arnold Transformation of Latent Features](https://arxiv.org/abs/2502.07812).
 
