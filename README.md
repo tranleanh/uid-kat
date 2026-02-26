@@ -1,9 +1,10 @@
 # UID-KAT: Unpaired Image Dehazing via Kolmogorov-Arnold Transformation of Latent Features
 
 [![Preprint](https://img.shields.io/badge/Preprint-arXiv-red)](https://arxiv.org/abs/2502.07812)
+[![Journal](https://img.shields.io/badge/Journal-Pattern_Recognition-orange)](https://www.sciencedirect.com/science/article/abs/pii/S0031320326002694)
 [![Models](https://img.shields.io/badge/Models-Hugging_Face-gold)](https://huggingface.co/tranleanh/uid-kat)
 
-The official PyTorch implementation of the paper [Unpaired Image Dehazing via Kolmogorov-Arnold Transformation of Latent Features](https://arxiv.org/abs/2502.07812) (accepted by Pattern Recognition).
+The official PyTorch implementation of the paper [Unpaired Image Dehazing via Kolmogorov-Arnold Transformation of Latent Features](https://www.sciencedirect.com/science/article/abs/pii/S0031320326002694) (Pattern Recognition).
  
 Author: Le-Anh Tran
 
@@ -77,11 +78,13 @@ $ python dehaze_image.py
 
 ## Citation
 ```bibtex
-@article{tran2025unpaired,
-  title={Unpaired Image Dehazing via Kolmogorov-Arnold Transformation of Latent Features},
+@article{tran2026unpaired,
+  title={Unpaired image dehazing via Kolmogorov-Arnold transformation of latent features},
   author={Tran, Le-Anh},
-  journal={arXiv preprint arXiv:2502.07812},
-  year={2025}
+  journal={Pattern Recognition},
+  pages={113304},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
 
