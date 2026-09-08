@@ -39,6 +39,17 @@ It is recommended to run the project with the following main dependencies (or eq
 - cudnn 8.9.2
 - [rational_kat_cu](https://github.com/Adamdad/rational_kat_cu)
 
+### ** Known Issue **
+If there is error when installing rational_kat_cu, e.g.:
+```
+"ModuleNotFoundError: No module named 'torch'
+```
+even though "torch" has been installed, try:
+```bashrc
+python -m pip install -U pip setuptools wheel
+python -m pip install -e . --no-build-isolation
+```
+
 ## Train
 
 Prepare training dataset following the folder structure in [datasets/train1](https://github.com/tranleanh/uid-kat/tree/main/datasets/train1).
